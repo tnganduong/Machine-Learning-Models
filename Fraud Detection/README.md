@@ -1,4 +1,4 @@
-![Screenshot 2024-06-04 at 11 28 37](https://github.com/tnganduong/Machine-Learning-Models/assets/128363160/d0f4d5f2-8b30-4c72-8e0b-f7d75073adf3)# Online Payments Fraud Detection 
+# Online Payments Fraud Detection 
 
 This project is focused on creating a machine learning model that can detect fraud in online payments. 
 
@@ -16,7 +16,6 @@ Online payments fraud is a growing issue as more and more transactions are being
 - Feature engineering
 - Training and evaluation of machine learning models
 - Model selection and tuning
-- Real-time deployment for fraud detection
 
 ## Technologies Used
 
@@ -30,6 +29,6 @@ Online payments fraud is a growing issue as more and more transactions are being
 ## Usage
 
 1. Clone the repository
-2. Install the required dependencies using `pip install -r requirements.txt`
+2. Follow the file source to get the link to dataset on Kaggle
 3. Run the Jupyter Notebook `online_payments_fraud_detection.ipynb` to follow the steps of data preprocessing, model training, and evaluation
 4. Once the model is trained and evaluated, deploy it in real-time for online payments fraud detection
