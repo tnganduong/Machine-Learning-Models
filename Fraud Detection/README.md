@@ -20,18 +20,6 @@ This project provides an end-to-end solution including:
 
 ---
 
-## Tech Stack & Technical Skills Showcase
-
-- **Language:** Python 3.x
-- **Data Manipulation & Analysis:** `pandas`, `numpy` (Handled 6.3M+ rows efficiently in memory)
-- **Data Visualization:** `matplotlib`, `seaborn`
-- **Machine Learning & Evaluation:** `scikit-learn`
-  - *Models Used:* Logistic Regression, Decision Tree Classifier, Gaussian Naive Bayes.
-  - *Preprocessing & Scaling:* `StandardScaler`, `train_test_split`.
-  - *Metrics:* Confusion Matrix, Precision, Recall, F1-Score, ROC-AUC, Classification Report.
-
----
-
 ## Methodology
 1. **Automated EDA Framework:** Developed a reusable Python function `explore_eda()` to check missing values, data distributions, statistics, and cardinality across millions of records in a single call.
 2. **Data Cleaning & Validation:** Verified zero missing values across all 11 columns; identified continuous numerical variables vs. categorical types.
@@ -47,34 +35,17 @@ In fraud detection:
 
 ---
 
+## Tech Stack
 
-# Online Payments Fraud Detection 
+- **Language:** Python 3.x
+- **Data Manipulation & Analysis:** `pandas`, `numpy` (Handled 6.3M+ rows efficiently in memory)
+- **Data Visualization:** `matplotlib`, `seaborn`
+- **Machine Learning & Evaluation:** `scikit-learn`
+  - *Models Used:* Logistic Regression, Decision Tree Classifier, Gaussian Naive Bayes.
+  - *Preprocessing & Scaling:* `StandardScaler`, `train_test_split`.
+  - *Metrics:* Confusion Matrix, Precision, Recall, F1-Score, ROC-AUC, Classification Report.
 
-This project is focused on creating a machine learning model that can detect fraud in online payments. 
-
-## Overview
-
-Online payments fraud is a growing issue as more and more transactions are being conducted online. Detection of fraud in real-time is crucial to prevent financial losses for both businesses and consumers. Machine learning models can help identify patterns and anomalies in online payment data, leading to more accurate fraud detection.
-
-![Screenshot 2024-06-04 at 11 28 52](https://github.com/tnganduong/Machine-Learning-Models/assets/128363160/94601a54-fdf9-4b6a-8dc9-b4e2dce67c8c)
-
-![Screenshot 2024-06-04 at 11 28 37](https://github.com/tnganduong/Machine-Learning-Models/assets/128363160/ce1be98f-37f2-4eac-9dfa-74f51fa31f65)
-
-## Features
-
-- Data preprocessing techniques
-- Feature engineering
-- Training and evaluation of machine learning models
-- Model selection and tuning
-
-## Technologies Used
-
-- Python
-- Scikit-learn
-- Pandas
-- NumPy
-- Jupyter Notebook
-- Git
+---
 
 ## Usage
 
